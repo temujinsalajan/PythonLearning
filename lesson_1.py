@@ -1,0 +1,26 @@
+import turtle 
+
+c1="grey"
+steps=100
+shape="turtle"
+size=1
+
+
+turtle.color(c1)
+turtle.shape(shape)
+turtle.shapesize(size)
+
+
+
+turtle.forward(steps)
+turtle.left(90)
+turtle.forward(steps)
+turtle.left(90)
+turtle.forward(steps)
+turtle.left(90)
+turtle.forward(steps)
+turtle.left(90)
+
+
+turtle.done()
+
