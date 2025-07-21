@@ -11,16 +11,16 @@ turtle.shape(shape)
 turtle.shapesize(size)
 
 
-
-turtle.forward(steps)
-turtle.left(90)
-turtle.forward(steps)
-turtle.left(90)
-turtle.forward(steps)
-turtle.left(90)
-turtle.forward(steps)
-turtle.left(90)
-
+while True:
+    turtle.forward(steps)
+    turtle.left(90)
+    turtle.forward(steps)
+    turtle.left(90)
+    turtle.forward(steps)
+    turtle.left(90)
+    turtle.forward(steps)
+    turtle.left(90)
+    turtle.right(75)
 
 turtle.done()
 
